@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener{
             textView.text = "waaaaaaaaaaaaa"
         }
+        button3.setOnClickListener{
+            val intent = Intent(applicationContext, HikakuyouActivity::class.java)
+            startActivity(intent)
+        }
 
         textView.text = "aiueo"//kotlin-android-extensionsすごい
         //editText = findViewById(R.id.editText) as EditText
