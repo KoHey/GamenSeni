@@ -18,6 +18,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        button2.setOnClickListener{
+            textView.text = "waaaaaaaaaaaaa"
+        }
+        button3.setOnClickListener{
+            val intent = Intent(applicationContext, HikakuyouActivity::class.java)
+            startActivity(intent)
+        }
+
         textView.text = "aiueo"//kotlin-android-extensionsすごい
 
         button.setOnClickListener{ onClick() }

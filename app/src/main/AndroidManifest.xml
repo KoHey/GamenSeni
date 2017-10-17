@@ -19,9 +19,13 @@
         <activity
             android:name=".SubActivity"
             android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".HikakuyouActivity"></activity>
+
         <activity
             android:name=".InputActivity"
             android:parentActivityName=".MainActivity" />
+
     </application>
 
 </manifest>
